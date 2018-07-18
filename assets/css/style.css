@@ -6,6 +6,7 @@ header {
     padding: 10px;
     background-color: #ffffff;
     z-index: 1;
+    font-family: 'Georgia', Times New Roman, Times, serif;
     
 }
 
@@ -14,9 +15,10 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     padding-bottom: 5px;
-    padding: 15px;
+    padding: 10px;
     position: relative;
     top: 32px;
+    font-family: 'Georgia', Times New Roman, Times, serif;
 }
 
 .nav h6 {
@@ -32,6 +34,7 @@ h1 {
     font-weight: lighter;
     position: relative;
     top: 52px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body {
@@ -44,8 +47,9 @@ h2 {
     padding-bottom: 8px;
     padding-top:6px;
     color: #4aaaa5;
-    font-size: 32px;
+    font-size: 25px;
     margin: 8px;
+    font-family: 'Georgia', Times New Roman, Times, serif;
 }
 
 .wrapper {
@@ -68,17 +72,19 @@ img {
     line-height: 1.6;
     padding-top: 8px;
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 input, textarea {
     width: 100%;
     margin-bottom: 2px;
     color: #777777;
-   
+    line-height: 26px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .info {
-    padding: 10px;
+    padding: 15px
 }
 
 body {
@@ -94,8 +100,10 @@ body {
     color: #777777;
     text-align: center;
     margin-bottom: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
  }
 
  a {
      color: #777777;
+     text-decoration: none;
  }
