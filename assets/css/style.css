@@ -1,24 +1,51 @@
 #header {
-    background: red;
+  background: #4aaaa5;
     width: 150px;
-    height: 75px;
+    height: 50px;
     padding-top: 25px;
+    text-align: center;
+    margin-left: 75px;
+    color: #fff;
 }
 
 #contact-link {
-    background: green;
     width: 75px;
     float:right;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
 }
 
 #portfolio-link {
-    background: blue;
     width: 75px;
     float: right;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
 }
 
 #about-link {
-    background:yellow;
     width: 75px;
     float:right;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+}
+
+.mainHeader {
+    width: 960px;
+}
+
+.profilePic {
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.bio {
+    padding-left: 50px;
+}
+
+#main-bio {
+    width: 960px;
 }
