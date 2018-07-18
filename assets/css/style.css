@@ -1,0 +1,24 @@
+#header {
+    background: red;
+    width: 150px;
+    height: 75px;
+    padding-top: 25px;
+}
+
+#contact-link {
+    background: green;
+    width: 75px;
+    float:right;
+}
+
+#portfolio-link {
+    background: blue;
+    width: 75px;
+    float: right;
+}
+
+#about-link {
+    background:yellow;
+    width: 75px;
+    float:right;
+}
