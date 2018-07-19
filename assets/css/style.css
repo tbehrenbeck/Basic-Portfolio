@@ -1,4 +1,11 @@
 header {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.headerText {
     content: "";
     display: block;
     max-width: 960px;
@@ -8,7 +15,8 @@ header {
     z-index: 1;
     font-family: 'Georgia', Times New Roman, Times, serif;
     margin-top: 0px;
-    border-bottom: 2px solid #cccccc;
+    position: relative;
+    max-height: 56px;
 }
 
 h1 {
@@ -16,15 +24,19 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     padding-bottom: 5px;
-    padding: 10px;
+    padding: 20px;
     position: relative;
-    top: 32px;
+    bottom: 31px;
     font-family: 'Georgia', Times New Roman, Times, serif;
+    right: 10px;
 }
 
 .nav h6 {
     margin: 10px 0;
     text-align: center;
+    position: relative;
+    bottom: 7px;
+    left: 25px;
 }
 
 .nav {
@@ -33,7 +45,6 @@ h1 {
     padding-top: 20px;
     font-size: 25px;
     font-weight: lighter;
-    position: relative;
     top: 52px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
