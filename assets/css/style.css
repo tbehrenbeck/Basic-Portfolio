@@ -83,9 +83,10 @@ h2 {
     padding-right: 3px;
 }
 
-/* hr {
-    padding: 13px; edit decoration elements 
-} */
+hr {
+    margin: 13px;
+    margin-right:13px;
+}
 
 .text {
     line-height: 1.6;
@@ -104,11 +105,13 @@ input, textarea {
 }
 
 .info {
-    padding: 15px
+    padding: 15px;
+    line-height:1.5;
+    margin-right:5px;
 }
 
 body {
-    background-image: url(../images/ep_naturalwhite.png);
+    background-image: url(../images/subtle_white_feathers.png);
 }
 
 .footer {
@@ -128,6 +131,7 @@ body {
  a {
      color: #777777;
      text-decoration: none;
+     padding-left: 12px;
  }
 
  a:hover {
@@ -136,12 +140,13 @@ body {
 
 .port {
     width: 169px;
+    float: center;
 }
 
 .label {
     box-sizing: border-box;
     background-color: #4aaaa5;
-    width: 196px;
+    width: 169px;
     padding: 0px;
     text-align: center;
     color: #ffffff;
@@ -155,10 +160,12 @@ body {
     width: 243px;
     float: left;
     position: relative;
+    margin-right: -22px;
 }
 
 .images {
     float: left;
     margin: 25px;
+    margin-top: 6px;
     clear: both;
 }
