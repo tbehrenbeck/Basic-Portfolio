@@ -130,26 +130,29 @@ body {
      text-decoration: none;
  }
 
+ a:hover {
+    color: #4aaaa5;
+}
+
 .port {
-    width: 200px;
-    display: inline-block;
+    width: 169px;
 }
 
 .label {
     box-sizing: border-box;
     background-color: #4aaaa5;
-    width: 201px;
+    width: 196px;
     padding: 0px;
     text-align: center;
     color: #ffffff;
     font-size: 25px;
     position: absolute;
     z-index: 2;
-    top: 147px;
+    top: 137px;
 }
 
 .work {
-    width: 300px;
+    width: 243px;
     float: left;
     position: relative;
 }
@@ -157,4 +160,5 @@ body {
 .images {
     float: left;
     margin: 25px;
+    clear: both;
 }
